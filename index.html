@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>OPENBOARD</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+
+    <div class="icons-cont">
+
+        <div class="side-icon">
+            <!-- <i class="fa-solid fa-bars"></i> -->
+            <!-- <i class="fa-solid fa-bars fa-lg"></i> -->
+            <i class="fa-solid fa-bars fa-2xl"></i>
+          </div>
+          <div class="tools-cont scale-tools">
+
+            <img class="pencil" src="./IMAGES/pencil-svgrepo-com.svg" alt="Pencil-Image">
+            <img class="eraser" src="./IMAGES/eraser-svgrepo-com.svg   " alt="Eraser-Image">
+            <img class="download" src="./IMAGES/download-svgrepo-com (1).svg" alt="download-Image">
+            <img class="upload" src="./IMAGES/upload-minimalistic-svgrepo-com.svg" alt="upload-Image">
+            <img class="StickyNote" src="./IMAGES/sticky-note-svgrepo-com (1).svg" alt="StickyNote-Image">
+            <img class="Undo" src="IMAGES/undo-left-square-svgrepo-com (1).svg" alt="Undo-Image">
+            <img class="Redo" src="IMAGES/undo-right-round-square-svgrepo-com.svg" alt="Redo-Image">
+
+
+
+
+
+ 
+          </div>
+        </div>
+<div class="pencil-tool-cont">
+  <div class="pencil-width-cont">
+   <!-- <input type="range"  min="1" max="5"  value="3" class="slider"> -->
+   <input type="range" min="1" max="10" value="4"  class="slider pencilWidth" id="myRange">
+
+  </div>
+  <div class="pencil-color-cont">
+    <div class="black pencilcolor"></div>
+    <div class="red pencilcolor"></div>
+    <div class="blue pencilcolor"></div>
+
+  </div>
+</div>
+
+<!-- for eraser -->
+
+<div class="eraser-tool-cont">
+  <div class="eraser-width-cont">
+   <!-- <input type="range"  min="1" max="5"  value="3" class="slider"> -->
+   <input type="range" min="1" max="10" value="4" class="slider eraserWidth" id="myRange">
+
+  </div>
+
+</div>
+
+
+
+<canvas>
+
+</canvas>
+
+
+   
+    
+
+    <script src="script.js"></script>
+    <script src="canvas.js"></script>
+  </body>
+</html>
